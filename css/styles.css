@@ -1,0 +1,20 @@
+/*
+Color:
+pink: #d95fc5;
+blue: #22a2f2;
+yellow: #f2dc6b;
+gold: #bfa145;
+red: #d93636'
+
+Type:
+header/titles:
+    <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+    font-family: 'Indie Flower', cursive;
+Paragraphs:
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css'>
+    font-family: 'PT Sans Narrow', sans-serif;
+
+*/
+main{
+background:#f2dc6b;
+}
