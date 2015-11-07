@@ -16,5 +16,37 @@ Paragraphs:
 
 */
 main{
-background:#f2dc6b;
+background:#22a2f2;
+}
+
+ul{
+    margin-top: 0;
+}
+li{
+    list-style: none;
+    float: left;
+}
+a:link,
+a:visited {
+    display: block;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    text-decoration: none;
+    padding-top: 0;
+    width: 100px;
+    transition: padding-top 2s;
+}
+
+a:focus,
+a:hover,
+a:active{
+    background: #f2dc6b;
+    color: #d93636;
+    border-left: 8px solid #fff;
+    padding-top: 32px;
+    
+}
+img{
+    border-radius: 1000px
 }
