@@ -24,18 +24,18 @@ ul{
 }
 li{
     list-style: none;
-    float: left;
+    float: right;
 }
 a:link,
 a:visited {
-    display: block;
+    display:flex;
     height: 32px;
     text-align: center;
     line-height: 32px;
     text-decoration: none;
     padding-top: 0;
     width: 100px;
-    transition: padding-top 2s;
+    transition: padding-bottom 1s;
 }
 
 a:focus,
@@ -47,6 +47,13 @@ a:active{
     padding-top: 32px;
     
 }
-img{
-    border-radius: 1000px
+#two{
+   
+    border-radius:30%;
+    background-color:#f2dc6b;
+    border-color: #f2dc6b
+}
+#one{
+    border-radius:50%;
+    background-color:#d93636;
 }
