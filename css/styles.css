@@ -52,7 +52,9 @@ a:active{
 }
 #one{
     border-radius:50%;
-    background-color:#d93636; 
+    width: 90%;
+    height: 90%;
+     
     
 }
 h1, blockquote{
