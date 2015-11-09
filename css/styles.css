@@ -1,7 +1,7 @@
 /*
 Color:
 pink: #d95fc5;
-blue: #22a2f2;
+blue: #4CB6F9;
 yellow: #f2dc6b;
 red: #d93636'
 
@@ -12,11 +12,9 @@ header/titles:
 Paragraphs:
     <link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css'>
     font-family: 'PT Sans Narrow', sans-serif;
+border idea: https://amethystwebsitedesign.com/decorative-borders-with-only-css-and-no-images/
 
 */
-main{
-background:#22a2f2;
-}
 
 ul{
     margin-top: 0;
@@ -54,9 +52,10 @@ a:active{
 }
 #one{
     border-radius:50%;
-    background-color:#d93636;
+    background-color:#d93636; 
+    
 }
-h1{
+h1, blockquote{
     text-align: center;
     font-family:'Indie Flower', cursive, bold;
     color: #d93636;
@@ -70,4 +69,27 @@ h2{
     color: #f2dc6b;
 
     
+}
+p{
+ font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 20px;
+    border: 1px dashed #ddd;
+	box-shadow: 0 0 0 3px #d93636, 0 0 0 5px #ddd, 0 0 0 10px #000,     0 0 2px 10px #000;
+}
+#three{
+    border-radius:70%;
+    
+}
+
+#four{
+    border-radius: 50%
+}
+#five{
+    height: 20em;
+    width: auto;
+    border-radius: 20%;
+}
+body{
+    background:#4CB6F9;
+    box-shadow: 0 0 0 3px #d93636, 0 0 0 5px #ddd, 0 0 0 10px #000,     0 0 2px 10px #000;
 }
